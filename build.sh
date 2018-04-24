@@ -16,7 +16,7 @@ clear
 # Resources
 THREAD="-j$(grep -c ^processor /proc/cpuinfo)"
 KERNEL="Image.gz-dtb"
-DEFCONFIG="msm_defconfig"
+DEFCONFIG="pme_defconfig"
 
 # Kernel Details
 VER=
@@ -37,7 +37,7 @@ PATCH_DIR="${HOME}/AnyKernel2/patch"
 RAMDISK_DIR="${HOME}/AnyKernel2/ramdisk"
 MODULES_DIR="${HOME}/AnyKernel2/modules"
 ZIP_MOVE="${HOME}/Documents/kernel-builds"
-ZIMAGE_DIR="${HOME}/kernels/pme/out/arch/arm64/boot"
+ZIMAGE_DIR="${HOME}/kernels/android_kernel_htc_msm8996/out/arch/arm64/boot"
 
 # Functions
 function clean_all {
